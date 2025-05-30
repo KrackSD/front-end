@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمات المواقع الالكتونية</title>
+    <style>
+        body { 
+            font-family: 'Tahoma', sans-serif; 
+            background: #f9f9f9; 
+            margin: 0; 
+            padding: 0; 
+        }
+        .header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .service {
+            background: white;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        /* تنسيق الصورة */
+        .service-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+        /* تنسيق نموذج التواصل */
+        .contact-form {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>مرحبًا بكم في خدماتي</h1>
+    </div>
+
+    <!-- قسم الخدمة مع صورة -->
+    <div class="service">
+        <h2>تصميم صفحات الويب</h2>
+        <p>أقدم تصميمات متوافقة مع جميع الأجهزة وبأسعار مناسبة.</p>
+        <img src="img.jpg" alt="تصميم مواقع" class="service-image"> 
+        <!-- استبدل رابط الصورة برابط صورتك الخاصة -->
+    </div>
+
+    <!-- نموذج التواصل -->
+    <div class="contact-form">
+        <h2>تواصل معنا</h2>
+        <form>
+            <input type="text" placeholder="اسمك" required>
+            <input type="email" placeholder="بريدك الإلكتروني" required>
+            <textarea placeholder="رسالتك" rows="5" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+</body>
+</html>
